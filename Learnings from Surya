@@ -1,5 +1,5 @@
 1.Seperation of Concerns
-            => Trigger                  : This is the place where the actual code will work
+            => Trigger                  : This is the place where the actual code will start execting
             => Trigger Handler Class    : This is where you actual logic resides In
             => Trigger Manager Class    : This is where your complex logic resides In ( like sending email notifications, invoking object DML operations..etc
             => DB Class                 : This is where you perform SOQL queries to restrive data
@@ -12,5 +12,6 @@
 
 3.How to call non-static methods inside an Trigger (static class)?
       - By creatng object for that class and then className.objectName();
+            new ClassName().methodName();
 
 4.
