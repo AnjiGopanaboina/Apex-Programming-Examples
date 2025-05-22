@@ -1,0 +1,16 @@
+1.Seperation of Concerns
+            => Trigger                  : This is the place where the actual code will work
+            => Trigger Handler Class    : This is where you actual logic resides In
+            => Trigger Manager Class    : This is where your complex logic resides In ( like sending email notifications, invoking object DML operations..etc
+            => DB Class                 : This is where you perform SOQL queries to restrive data
+            => Domain Class             : This is where you actual take care of field assignment to a variable or value assignment to the field
+
+2.Trigger scenario:
+    When a contact is inserted or updated, based on the contact status perform the below operation.
+              1.When any of associated contact status is Active then make Account status as Active
+              2.When all associated contacts status is In-active then make account status as Inactive.
+
+3.How to call non-static methods inside an Trigger (static class)?
+      - By creatng object for that class and then className.objectName();
+
+4.
