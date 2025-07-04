@@ -39,7 +39,7 @@ Symbol	            Meaning
   This	            Reference to current class object
   :	                Contains or Includes
 
-Rules to define Identifiers:
+Rules to define Identifiers or variables:
 	i.Length should be 1 to 256 characters only.
 	ii.A to Z (UC and LC).
 	iii.No special characters are allowed except Underscore (_).
@@ -54,32 +54,19 @@ Wheel3& ====> No
 Integer Integer ====> No
 
 Naming Convention::
+-----&&&&&&-------
+Apex Class Name : Every word first letter should be Upper case only.
+Access modifiers: Always should be lower case only.
+static and non-static keywords:  Always should be lower case only.
+return type:  Always should be lower case only.
+methodName: First letter first word should be lower case and there after everyword first letter should be upper case.
+Primitive or Non- primitive datatypes : First letter should be upper case only
+Variables: First letter first word should be lower case and there after everyword first letter should be upper case.
+Objects in apex class : First letter should be upper case only.
+System.debug : S should be upper case only.
 
-1.Upper Camel:
-	In this naming convention, every word first letter should be capital.
-	This naming convention is used to define names for Class and Interface
-Example: 
-	Student, Invoice_Data, Employee_Info
-
-2.Lower Camel: 
-	In this naming convention, first word first letter should be small and every word first letter should be capital
-	This naming convention is used to define names for methods and variables.
-Example:
-    	setName, invokeData, getData, callMe, getStudentData
-
-3.Upper Case: 
-    	In this naming convention every word every letter should be capital.
-    	This is used for defining names for Constants.
-Example:
-    	MAX_AGE, MIN_SALARY, MAX_AMOUNT, DML_EXCEPTION
-
-4.Lower Case
-	In this naming convention every word, every letter should be small.
-    	This is used to define names for keywords and packages.
-Example:
-	for, if, while, for each loop…Etc.,
-
-Comments:
+Comments in apex class:
+-------&&&&&&&---------
 
 There are two ways to write comments in Apex Programming 
 	Single Line Comment:  //
