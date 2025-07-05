@@ -90,3 +90,10 @@ Ver   Date         Author                               	  Modification
 MethodName::
 
 // Comments : Describe in-detail about the method.
+
+
+Short Cuts to Developer Console:
+
+Ctrl+E :: Open Dev Console
+ctrl+Shift+O :: To open all the classes
+
