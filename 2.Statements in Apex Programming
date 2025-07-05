@@ -65,9 +65,28 @@ Variables: First letter first word should be lower case and there after everywor
 Objects in apex class : First letter should be upper case only.
 System.debug : S should be upper case only.
 
-Comments in apex class:
+Types of Comments in apex class:
 -------&&&&&&&---------
 
 There are two ways to write comments in Apex Programming 
 	Single Line Comment:  //
 	Multi-line comment:  /*     comments      */
+
+Description for an Apex class
+------&&&&&&&-------------
+/*
+*********************************************************
+Apex Class Name    : Name of the Apex Class
+Created Date       : Date (Day-Month-Year)
+@description       : This is class is used for....
+@author            : Name of the Author
+
+Modification Log:
+Ver   Date         Author                               	  Modification
+1.0   04-01-2021   What change you are doing                      Initial Version
+*********************************************************
+*/
+
+MethodName::
+
+// Comments : Describe in-detail about the method.
