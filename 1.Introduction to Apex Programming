@@ -1,11 +1,30 @@
-i.Apex is an High level language.
-ii. How Apex Programming language is similar to Natural Language?
+1.What is an Apex?
+        - Apex is a strongly typed object oriented programming language that allows developers to execute and add business logic on salesforce platform.
+        - Apex is an High level programming language.
+		- Apex code can be initiated from web service request and from triggers on Objects.  
 
-        Natural Level Language	            High Level Language
+Weakly Typed Programming language                                          Strongly Typed Programming Language
+-----------------------------------                                          ---------------------------------
+Ex: Javascript                                                              Ex: Apex
+var myVariable = 'paul'														Integer myVariable = 15;
+myVariable = 10;															myVariable = 'hello World';
+myVariable= true;															System.debug(myVariable);
+console.log(myVariable);
+
+Output: true																Output: Illegal assignment from String to Integer
+
+2.How do we compare Programming language with Natural Language?
+		 Natural Level Language	            High Level Language
               Paragraph	                        Program
               Sentences	                        Statements
-              Words	                        Syntax
+              Words	                        	Syntax
               Grammar	                        Tokens
+
+3.Advantages of Apex Programming Language?
+			- Auto Updrades
+			- Easy to Test
+			- Multi-tenant Architecture
+			- Simplified Data Access and Manupulation
 Tokens:
 i.A smallest unit of a program that conveys a meaning 
 ii.These tokens are categorized into 5 types
