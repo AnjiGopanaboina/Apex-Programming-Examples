@@ -120,13 +120,44 @@ else{
     system.debug('You failed the exam');
 }
 
-Nested if: One IF function inside of another if is known as Nested If
-	Syntax:
-	     if(condition){
-    		if(condition){
-        		statement to be executed;
-    		}
-    		else{
-        
-   		}
-	    }
+Nested if -else: One IF function inside of another if is known as Nested If
+	
+Syntax::
+if (outer_condition) {
+    // Code to execute if outer_condition is true
+    if (inner_condition_1) {
+        // Code to execute if outer_condition and inner_condition_1 are true
+    } else {
+        // Code to execute if outer_condition is true and inner_condition_1 is false
+    }
+} else {
+    // Code to execute if outer_condition is false
+    if (inner_condition_2) {
+        // Code to execute if outer_condition is false and inner_condition_2 is true
+    } else {
+        // Code to execute if outer_condition is false and inner_condition_2 is false
+    }
+}
+
+Example:
+
+String userRole = 'Admin';
+Integer userAge = 35;
+
+if (userRole == 'Admin') {
+    System.debug('Welcome, Administrator!');
+    if (userAge >= 18) {
+        System.debug('Admin is an adult.');
+    } else {
+        System.debug('Admin is a minor.');
+    }
+} else if (userRole == 'User') {
+    System.debug('Welcome, User!');
+    if (userAge >= 18) {
+        System.debug('User is an adult.');
+    } else {
+        System.debug('User is a minor.');
+    }
+} else {
+    System.debug('Hello, Guest!');
+}
